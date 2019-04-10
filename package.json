@@ -1,0 +1,29 @@
+{
+  "name": "lecture-4",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/kraftwerk28/lecture-4.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production",
+    "lint": "eslint src/ --ext .js,.jsx",
+    "server": "node server"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}
