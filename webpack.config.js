@@ -21,6 +21,9 @@ module.exports = (env, { mode }) => {
           options: {
             presets: [
               '@babel/react' // to allow babel compile jsx
+            ],
+            plugins: [
+              '@babel/proposal-class-properties'
             ]
           }
         }

@@ -4,6 +4,5 @@ import App from './components/App'
 
 render(
   <App />,
-  document.getElementById('app'),
-  () => console.log('React is working!')
+  document.getElementById('app')
 )
